@@ -1,0 +1,8 @@
+# Copy this file to terraform.tfvars and fill in real values.
+# terraform.tfvars is gitignored — never commit it.
+
+aws_region              = "us-east-1"
+cloudtrail_bucket_name  = "security-lab-cloudtrail-logs-change-me-12345" # must be globally unique
+
+# project_name                            = "security-lab"
+# guardduty_finding_publishing_frequency  = "SIX_HOURS"
